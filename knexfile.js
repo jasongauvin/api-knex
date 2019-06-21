@@ -4,6 +4,6 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection: 'postgres://localhost/cjs-xeb-store'
+    connection: 'postgres://localhost/cjs-web-store'
   },
 };
