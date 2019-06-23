@@ -1,4 +1,5 @@
 // Update with your config settings.
+// listing des db
 
 module.exports = {
 
@@ -6,4 +7,8 @@ module.exports = {
     client: 'pg',
     connection: 'postgres://localhost/cjs-web-store'
   },
+  test: {
+    client: 'pg',
+    connection: 'postgres://localhost/test-cjs-web-store'
+  }
 };
